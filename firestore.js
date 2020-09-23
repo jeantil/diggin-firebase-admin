@@ -27,7 +27,7 @@ export async function main(f, timeout = 10000) {
   }
 }
 
-const emulatorHost = "localhost:8080";
+const emulatorHost = "127.0.0.1:8080";
 
 main(async () => {
   debug(`trying to connect to firebase on ${emulatorHost}`);
